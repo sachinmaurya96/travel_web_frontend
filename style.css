@@ -168,6 +168,9 @@ nav{
 .featured_card .card-body, .desatination_hotels  .card-body{
     text-align: center;
 }
+.featured_card .card-body p, .desatination_hotels  .card-body p{
+    font-size: 20px;
+}
 .grid_post{
     display: grid;grid-template-columns: repeat(2, 1fr);
 }
