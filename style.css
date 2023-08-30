@@ -235,6 +235,9 @@ footer a{
     }
   }
   @media only screen and (max-width: 768px) {
+    nav{
+        background-image: -webkit-linear-gradient( 268deg , #26537f 0%, rgb(149, 147, 147) 100%);
+    }
     h3{
         font-size: 1.5rem;
         font-weight: bold;
