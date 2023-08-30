@@ -1,6 +1,7 @@
 /* default css */
 body{
     overflow-x: hidden;
+    width: 100vw;
 }
 img {
     vertical-align: middle;
