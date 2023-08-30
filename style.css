@@ -156,6 +156,7 @@ nav{
 }
 .description p{
     font-style: italic;
+
 }
 
 .featured_card .card-title{
@@ -169,16 +170,21 @@ nav{
     text-align: center;
 }
 .featured_card .card-body p, .desatination_hotels  .card-body p{
-    font-size: 20px;
+    font-size: 18px;
 }
 .grid_post{
     display: grid;grid-template-columns: repeat(2, 1fr);
 }
-
+.desatination_hotels  .card,.featured_card .card{
+    border: none;
+}
 
 /* galery */
 .galery{
     padding: 0 10px;
+}
+.galery ul li a{
+    font-size: 20px;
 }
 .galery .card-body{
     background: -webkit-linear-gradient( 278deg , #1de1cf 0%, #333a5f 100%);
@@ -257,11 +263,4 @@ footer a{
    }
   }
 
-  @media only screen and (max-width: 375px) {
-   
-  }
-
-  @media only screen and (max-width: 320px) {
-  
-  }
-  
+ 
